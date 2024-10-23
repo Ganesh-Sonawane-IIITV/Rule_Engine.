@@ -1,0 +1,82 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 718-838-345
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 718-838-345
+ERROR:root:Unexpected error: An unexpected error occurred while creating rule: Token Parsing Error: Invalid condition token: 'Height 30' does not match expected pattern
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 13:47:37] "[35m[1mPOST /add_rule HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 13:47:37] "[36mGET /add_rule?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 13:47:37] "[36mGET /add_rule?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 13:47:37] "GET /add_rule?__debugger__=yes&cmd=resource&f=console.png&s=hUTiV9KZQnBhYvAOgbNg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 13:47:37] "[36mGET /add_rule?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 13:47:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 13:47:43] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 13:47:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 13:48:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 13:48:05] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 13:48:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 13:48:06] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 13:48:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 13:48:07] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 13:48:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 13:48:07] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 13:48:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 13:48:21] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+ERROR:root:Unexpected error: An unexpected error occurred while creating rule: Token Parsing Error: Invalid condition token: 'Hello' does not match expected pattern
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 13:48:49] "[35m[1mPOST /add_rule HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 13:48:49] "[36mGET /add_rule?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 13:48:49] "[36mGET /add_rule?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 13:48:49] "[36mGET /add_rule?__debugger__=yes&cmd=resource&f=console.png&s=hUTiV9KZQnBhYvAOgbNg HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 718-838-345
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 13:49:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 13:49:42] "GET /static/styles.css HTTP/1.1" 200 -
+ERROR:root:Unexpected error: An unexpected error occurred while creating rule: Token Parsing Error: Invalid condition token: 'Bye' does not match expected pattern
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 13:49:59] "[35m[1mPOST /add_rule HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 13:49:59] "[36mGET /add_rule?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 13:49:59] "[36mGET /add_rule?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 13:49:59] "GET /add_rule?__debugger__=yes&cmd=resource&f=console.png&s=9zd79X1fd2fod2zrJyut HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 13:49:59] "[36mGET /add_rule?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 718-838-345
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 13:51:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 13:51:37] "GET /static/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 13:51:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+ERROR:root:Unexpected error: An unexpected error occurred while creating rule: Token Parsing Error: Invalid condition token: 'Hello' does not match expected pattern
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 13:51:48] "[35m[1mPOST /add_rule HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 13:51:48] "GET /add_rule?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 13:51:48] "GET /add_rule?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 13:51:48] "GET /add_rule?__debugger__=yes&cmd=resource&f=console.png&s=AHe8gLKXQcClece6WYYa HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Oct/2024 13:51:48] "GET /add_rule?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'D:\\Zeo\\run.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 718-838-345
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 718-838-345

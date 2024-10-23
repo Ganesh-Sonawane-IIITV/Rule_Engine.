@@ -1,0 +1,140 @@
+/* app/static/styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* Full viewport height */
+    text-align: center;
+    /* Center text */
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+    /* Maximum width of the container */
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #444;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #e9ecef;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+input[type="text"],
+textarea {
+    width: calc(100% - 22px);
+    /* Full width with padding */
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007bff;
+    /* Bootstrap primary color */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+    /* Darker shade on hover */
+}
+
+textarea {
+    resize: none;
+    /* Disable resizing */
+}
+
+
+/* Flash message styling */
+
+.flashes {
+    list-style: none;
+    padding: 0;
+}
+
+.flashes li {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.flashes li.success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.flashes li.error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+
+/* Add any additional styling specifically for the evaluation result page here if needed */
+
+
+/* For the result text, if you want to style it differently */
+
+p {
+    color: #555;
+    /* Dark grey for contrast */
+    font-size: 1.2em;
+    /* Slightly larger font size */
+    margin-bottom: 20px;
+    /* Space below the result text */
+}
+
+
+/* Link styling for better visibility */
+
+a {
+    display: inline-block;
+    /* Makes the link look like a button */
+    margin-top: 10px;
+    /* Space above the link */
+    background-color: #007bff;
+    /* Bootstrap primary color */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+    /* Remove underline */
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #0056b3;
+    /* Darker shade on hover */
+}

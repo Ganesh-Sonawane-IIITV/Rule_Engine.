@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Rule</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Update Rule</h1>
+        <form action="/update_rule/{{ rule.id }}" method="POST">
+            <label for="rule_name">Rule Name:</label>
+            <input type="text" id="rule_name" name="rule_name" value="{{ rule.rule_name }}" required><br>
+
+            <label for="rule_string">Rule:</label>
+            <input type="text" id="rule_string" name="rule_string" value="{{ rule.rule_string }}" required><br>
+
+            <button type="submit">Update Rule</button>
+        </form>
+        <a href="/">Go back</a>
+    </div>
+</body>
+
+</html>
