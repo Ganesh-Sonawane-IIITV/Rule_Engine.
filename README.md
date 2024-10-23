@@ -24,58 +24,59 @@ app/
 │   └── styles.css          # CSS file for styling the UI
 ├── templates/
 │   ├── index.html          # Main UI template for rule management
-│   ├── update_rule.html    # Form to update an existing rule
+│   └── update_rule.html    # Form to update an existing rule
 ├── create_tables.py        # Script for creating the PostgreSQL 'rule' table
 ├── ui.py                   # Flask app to handle routes and logic for CRUD operations
 ├── config.py               # Configuration file for database connection
 └── rule_engine.py          # Logic for rule parsing and AST generation
-
 ```
-Database Schema
+## Database Schema
+
 The application uses PostgreSQL with the following schema for the rule table:
 
-+---------------+-------------------+-----------------------+
-| Column        | Type              | Constraints            |
-+---------------+-------------------+-----------------------+
-| id            | SERIAL            | Primary Key            |
-| rule_name     | VARCHAR(100)      | Not Null               |
-| rule_string   | VARCHAR(200)      | Not Null               |
-| rule_ast      | JSON              | Not Null (AST structure)|
-+---------------+-------------------+-----------------------+
+| Column      | Type            | Constraints               |
+|-------------|-----------------|---------------------------|
+| id          | SERIAL           | Primary Key               |
+| rule_name   | VARCHAR(100)     | Not Null                  |
+| rule_string | VARCHAR(200)     | Not Null                  |
+| rule_ast    | JSON             | Not Null (AST structure)  |
 
-API Endpoints
-GET /: Home page to view and manage rules.
-POST /add_rule: Add a new rule to the database.
-GET /update_rule/<id>: Fetch the rule to be updated by ID.
-POST /update_rule/<id>: Update the rule with new values.
-POST /delete_rule/<id>: Delete a rule by its ID.
+## API Endpoints
+- **GET /**: Home page to view and manage rules.
+- **POST /add_rule**: Add a new rule to the database.
+- **GET /update_rule/<id>**: Fetch the rule to be updated by ID.
+- **POST /update_rule/<id>**: Update the rule with new values.
+- **POST /delete_rule/<id>**: Delete a rule by its ID.
 
 
-Setup Instructions
-1. Clone the repository:
+
+## Setup Instructions
+
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/your-username/rule-engine.git
    cd rule-engine
    ```
-2. Install required dependencies:
+2. **Install required dependencies:**
    ```bash
    pip install -r requirements.txt
    ```
-3. Set up PostgreSQL and create the rule_engine_db:
+3. **Set up PostgreSQL and create the rule_engine_db:**
    ```bash
    CREATE DATABASE rule_engine_db;
    ```
-4. Update the database connection string in config.py:
+4. **Update the database connection string in config.py:**
    ```bash
    DATABASE_URI = 'postgresql://postgres:admin@localhost:5432/rule_engine_db'
    ```
-5. Run the script to create the required table:
+5. **Run the script to create the required table:**
    ```bash
    python create_tables.py
    ```
-6. Start the Flask app:
+6. **Start the Flask app:**
    ```bash
    python run.py
    ```
-7. Access the app at ``` http://127.0.0.1:5000/ ```
+7. **Access the app at**
+    ``` http://127.0.0.1:5000/ ```
    
