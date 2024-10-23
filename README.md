@@ -83,18 +83,18 @@ The application uses PostgreSQL with the following schema for the rule table:
 ## Screenshots
 
 ### Add Rule
-![Add Rule](Zeo/Images/add_success.png)
+![Add Rule](Zeo/Images/add_success.png)<br>
 *This screenshot shows the successful addition of a new rule.*
 
 ### Update Rule
-![Update Rule](Zeo/Images/update_success.png)
+![Update Rule](Zeo/Images/update.png)<br>
 *This screenshot displays the successful update of an existing rule.*
 
 ### Delete Rule
-![Delete Rule](Zeo/Images/delete_success.png)
+![Delete Rule](Zeo/Images/delete_success.png)<br>
 *This screenshot confirms that a rule has been successfully deleted.*
 
 ### Evaluate Rule
-![Evaluate Rule](Zeo/Images/evaluation_success.png)
+![Evaluate Rule](Zeo/Images/evaluation_success.png)<br>
 *This screenshot illustrates the successful evaluation of a rule.*
 
